@@ -1,11 +1,11 @@
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
-interface MyInterface {
-  // Add your properties here
-  name: string;
-  value: string;
-}
+// interface MyInterface {
+//   // Add your properties here
+//   name: string;
+//   value: string;
+// }
 
 export interface InputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {}
